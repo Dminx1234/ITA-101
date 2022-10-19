@@ -5,15 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>💻Dom's Website</title>
+  <title>🇮🇹Italian Final Project</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
   <header>
     <div>
-      <h1>Dminx</h1>
-      <h2>Software Dev.</h2>
+      <h1>ITA-101</h1>
+      <h2>Presentation</h2>
     </div>
 
     <a class="selected" href="index.html">Home</a>
@@ -21,16 +21,11 @@
     <a href="screens/resume.html">Resume</a>
   </header>
   <main>
-    <h1>About Me:</h1>
-    <div>My name is Dominic and I use the name Dminx as my online username. I am currently going to University of
-      Buffalo to achieve a bachelors degree in computer science. I am driven to
-      learn and understand computers and planning on getting a career in it. So far, this website shows off some of the
-      projects I am working on and shows my resume with contact information.
-    </div>
+    <div>Get started by selecting on of the topics on the left side!</div>
   </main>
   <footer>
     <div>
-      <h3>Contact Info</h3>
+      <h3>Credits</h3>
       <ul>
         <li>My email: <a href="mailto:19ddionne@gmail.com">19ddionne@gmail.com</a></li>
         <li>My phone #: <a href="tel:+3153140976">315-314-0976</a> </li>
@@ -40,21 +35,6 @@
     </div>
   </footer>
   <div class="cursor"></div>
-  <script>
-    const cursor = document.querySelector('.cursor');
-
-    document.addEventListener('mousemove', e => {
-      cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
-    })
-
-    document.addEventListener('click', () => {
-      cursor.classList.add("expand");
-
-      setTimeout(() => {
-        cursor.classList.remove("expand");
-      }, 500)
-    })
-  </script>
 </body>
 
 </html>
