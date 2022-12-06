@@ -1,6 +1,6 @@
 /* Entire Page Styling */
 body {
-    background: url(../images/Italianflag.png) repeat;
+    background: url(../images/italianflag.jpg) repeat;
     background-size: 100%;
     min-height: 100%;
     margin: 0;
@@ -24,22 +24,29 @@ main div{
     padding-left: 30%;
     padding-right: 30%;
     line-height: 25pt;
+    
+}
+main div ul{
+    list-style-type: none;
 }
 
 /* Aside Styling */
 aside{
-    background-color: white;
+    background: url(../images/topics.jpg);
+    background-size: 100% 100%;
     position: fixed;
-    border:1px solid black;
+    
     margin-left: 5%;
     padding-right: 5%;
-    
+    box-shadow: 1px -2px 10px rgba(21, 124, 0, 0.356);
     
 }
 aside h3{
     text-align: center;
+    
 }
 aside li{
+    
     text-align: left;
 }
 
